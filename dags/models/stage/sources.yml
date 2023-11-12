@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: london_criminal_activity
+    database: bigquery-public-data
+    schema: london_crime
+    tables:
+      - name: crime_by_lsoa
+        description: "crime data by LSOA regarding the london area"
